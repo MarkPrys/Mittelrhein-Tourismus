@@ -1,7 +1,7 @@
 {
-  "name": "Friedrichssegen App",
-  "short_name": "Friedrichssegen App",
-  "description": "Entdecken der Gegend von Friedrichssegen",
+  "name": "Mittelrhein Tourismus App",
+  "short_name": "Mittelrhein Tourismus App",
+  "description": "Entdecken die Region Rheintal",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "white",

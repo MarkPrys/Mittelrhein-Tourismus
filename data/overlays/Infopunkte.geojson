@@ -12,323 +12,331 @@
       "type": "Feature",
       "properties": {
         "Id": 3,
-        "Objekt": "Kraftwerk",
-        "Bilder": [
-          "./data/Bilder/image/kraftwerk1.jpg",
-          "./data/Bilder/image/kraftwerk2.jpg",
-          "./data/Bilder/image/kraftwerk3.jpg"
-        ]
+        "Objekt": "Rechts 35",
+        "Bilder": "./data/content/image/rechts35.jpg",
+         "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=2&pan=-28.45629640530693&tilt=-0.13697177967902396&fov=90"
+        
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.645710359015908, 50.307333819863224]
+        "coordinates": [7.806617446530497, 50.035380598101874]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 2,
-        "Objekt": "Bahnhof",
-        "Bilder": [
-          "./data/Bilder/image/bahnhof_die_Bahnlinie.jpg",
-          "./data/Bilder/image/bahnhof_Friedrichssegen.jpg",
-          "./data/Bilder/image/bahnhof_Grube_Friedrichssegen.jpg",
-          "./data/Bilder/image/bahnhofsgelaende.jpg"
-        ]
+        "Objekt": "Rechts 36",
+        "Bilder": "./data/content/image/rechts36.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=3&pan=32.784296087635624&tilt=-0.011500840096759418&fov=90"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.65087671590931, 50.31192269678263]
+        "coordinates": [7.798020730796459, 50.03928409814968]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 3,
-        "Objekt": "Wohngebaeude Ahl",
-        "Bilder": "./data/Bilder/image/wohngebaeude_Ahl.jpg"
+        "Objekt": "Rechts 37",
+        "Bilder": "./data/content/image/rechts37.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=9&pan=343.30424374564325&tilt=0.5590594531868199&fov=99.14456569303832"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.651419682444109, 50.31103467152071]
+        "coordinates": [
+          7.787138821171364, 50.04422060411797]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 4,
-        "Objekt": "Grubenbahn",
-        "Bilder": [
-          "./data/Bilder/image/grubenbahn1.jpg",
-          "./data/Bilder/image/grubenbahn2.jpg"
-        ]
+        "Objekt": "Rechts 38",
+        "Bilder": "./data/content/image/rechts38.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=19&pan=359.45594993271357&tilt=0.8258657736401998&fov=99.4061960788371"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.657570420016977, 50.30931209566886]
+        "coordinates": [
+          7.774255136140252,
+          50.0519674051388
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 5,
-        "Objekt": "Ahler Gut mit Hüttengebäuden",
-        "Bilder": "./data/Bilder/image/ahler_Gut_mit_Huettengebaeuden.jpg"
+        "Objekt": "Rechts 39",
+        "Bilder": "./data/content/image/rechts39.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=30&pan=109.24354884448715&tilt=3.103058085874642&fov=104.0667834174375"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.650664245561138, 50.310371470547416]
+        "coordinates": [
+          7.769445253446745,
+          50.06530427251282
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 6,
-        "Objekt": "Wohngebäude Neue Welt",
-        "Bilder": [
-          "./data/Bilder/image/wohngebaeude_Neue_Welt1.jpg",
-          "./data/Bilder/image/wohngebaeude_Neue_Welt2.jpg",
-          "./data/Bilder/image/wohngebaeude_Neue_Welt3.jpg",
-          "./data/Bilder/image/wohngebaeude_Neue_Welt4.jpg"
-        ]
+        "Objekt": "Rechts 40",
+        "Bilder": "./data/content/image/rechts40.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=37&pan=60.989667381303&tilt=-0.76295444325815&fov=94.49239370625902"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.662264181030526, 50.30797557942473]
+        "coordinates": [
+          7.768238015343448,
+          50.077743226246824
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 7,
-        "Objekt": "Elektromagnetische Blendaufbereitung",
-        "Bilder": "./data/Bilder/image/elektromagnetische_Blendaufbereitung.jpg"
+        "Objekt": "Rechts 41",
+        "Bilder": "./data/content/image/rechts41.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=40&pan=139.7118811404386&tilt=2.385230780141497&fov=99.45355096406131"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.663901849765351, 50.30752568706385]
+        "coordinates": [
+          7.763231911970151,
+          50.08200421907938
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 8,
-        "Objekt": "Grubenbahnbrücke zur neuen Halde",
-        "Bilder": ["./data/Bilder/image/grubenbahnbruecke_zur_neuen_Halde1.jpg"]
+        "Objekt": "Rechts 42",
+        "Bilder": "./data/content/image/rechts42.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=41&pan=90.283436652222&tilt=2.3913764088752&fov=103.91951284044012"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.672849310119176, 50.3020926264176]
+        "coordinates": [
+          7.75668728659904,
+          50.08679730016444
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 9,
-        "Objekt": "Grubenbahnstrecke zur neuen Halde",
-        "Bilder": "./data/Bilder/image/grubenbahnbruecke_zur_neuen_Halde2.jpg"
+        "Objekt": "Rechts 43",
+        "Bilder": "./data/content/image/rechts43.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=43&pan=24.533128501675&tilt=1.2748616561558&fov=90"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.670428869911238, 50.30227746418997]
+        "coordinates": [
+          7.745964025596735,
+          50.094241481752235
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 10,
-        "Objekt": "Kölsche Löcher",
-        "Bilder": [
-          "./data/Bilder/image/koelsche_Loecher1.jpg",
-          "./data/Bilder/image/koelsche_Loecher2.jpg",
-          "./data/Bilder/image/koelsche_Loecher3.jpg",
-          "./data/Bilder/image/koelsche_Loecher4.jpg",
-          "./data/Bilder/image/koelsche_Loecher5.jpg"
-        ]
+        "Objekt": "Rechts 44",
+        "Bilder": "./data/content/image/rechts44.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=45&pan=333.2112284446935&tilt=-0.573374570231391&fov=99.24291920123439"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.677991508544926, 50.30230326024461]
+        "coordinates": [
+          7.736914760431111,
+          50.10216021370375
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "Id": 11,
-        "Objekt": "Zentralbüro Standesamt",
-        "Bilder": "./data/Bilder/image/zentralbuero_Standesamt.jpg"
+        "Objekt": "Rechts 45",
+        "Bilder": "./data/content/image/rechts45.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=51&pan=311.04881236732&tilt=-1.4128011895016&fov=90"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.679659663156571, 50.30164531311283]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Id": 12,
-        "Objekt": "Wohngebäude am Tagschacht",
-        "Bilder": [
-          "./data/Bilder/image/wohngebaeude_am_Tagschacht1.jpg",
-          "./data/Bilder/image/wohngebaeude_am_Tagschacht2.jpg",
-          "./data/Bilder/image/wohngebaeude_am_Tagschacht3.jpg",
-          "./data/Bilder/image/wohngebaeude_am_Tagschacht4.jpg",
-          "./data/Bilder/image/wohngebaeude_am_Tagschacht5.jpg",
-          "./data/Bilder/image/wohngebaeude_am_Tagschacht6.jpg",
-          "./data/Bilder/image/wohngebaeude_am_Tagschacht7.jpg"
+        "coordinates": [
+          7.723053579112992,
+          50.111504133748696
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.684911997792187, 50.30319233400039]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Id": 13,
-        "Objekt": "Consum und Bäckerei",
-        "Bilder": "./data/Bilder/image/consum_und_Baeckerei.jpg"
+        "Id": 11,
+        "Objekt": "Links 42",
+        "Bilder": "./data/content/image/links42.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=56&pan=105.86435446284978&tilt=-1.626328049961632&fov=90"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.677156503087989, 50.302900337936265]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Id": 14,
-        "Objekt": "Simultankirche",
-        "Bilder": [
-          "./data/Bilder/image/simultankirche1.jpg",
-          "./data/Bilder/image/simultankirche2.jpg",
-          "./data/Bilder/image/simultankirche3.jpg",
-          "./data/Bilder/image/simultankirche4.jpg",
-          "./data/Bilder/image/simultankirche5.jpg",
-          "./data/Bilder/image/simultankirche6.jpg"
+        "coordinates": [
+          7.793251028971266,
+          50.04583903025721
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.678841825776025, 50.30317735760442]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Id": 15,
-        "Objekt": "Heinrich-Stollen",
-        "Bilder": "./data/Bilder/image/heinrich_Stollen.jpg"
+        "Id": 11,
+        "Objekt": "Links 43",
+        "Bilder": "./data/content/image/links43.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=57&pan=172.74998797832&tilt=-1.4978689909047&fov=90"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.678463619704192, 50.302424336747855]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Id": 16,
-        "Objekt": "Tagschacht",
-        "Bilder": [
-          "./data/Bilder/image/tagschacht1.jpg",
-          "./data/Bilder/image/tagschacht2.jpg",
-          "./data/Bilder/image/tagschacht3.jpg",
-          "./data/Bilder/image/tagschacht4.jpg",
-          "./data/Bilder/image/tagschacht5.jpg",
-          "./data/Bilder/image/tagschacht6.jpg",
-          "./data/Bilder/image/tagschacht7.jpg"
+        "coordinates": [
+          7.786795067127328,
+          50.049793505015955
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.685237667677685, 50.30293252138642]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Id": 17,
-        "Objekt": "Schule am Tagschacht",
-        "Bilder": [
-          "./data/Bilder/image/schule_am_Tagschacht1.jpg",
-          "./data/Bilder/image/schule_am_Tagschacht2.jpg"
+        "Id": 11,
+        "Objekt": "Links 44",
+        "Bilder": "./data/content/image/links44.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=62&pan=226.01356054235163&tilt=-0.14917897414568296&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.774892868161364,
+          50.05856875270877
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.685795171507404, 50.30333297919334]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Id": 18,
-        "Objekt": "Arbeiter-Kasino",
-        "Bilder": "./data/Bilder/image/arbeiter_Kasino.jpg"
+        "Id": 11,
+        "Objekt": "Links 45",
+        "Bilder": "./data/content/image/links45.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=63&pan=-32.27080046526549&tilt=0.05446342398579985&fov=90"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.68353434430736, 50.30223080510767]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Id": 19,
-        "Objekt": "Hauptaufbereitung",
-        "Bilder": "./data/Bilder/image/hauptaufbereitung.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.67554668213855, 50.30256751090091]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Id": 20,
-        "Objekt": "Wohnung des Direktors",
-        "Bilder": "./data/Bilder/image/wohnung_des_Direktors.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.679005561596056, 50.30252433256414]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Id": 21,
-        "Objekt": "Friedhof",
-        "Bilder": [
-          "./data/Bilder/image/friedhof1.jpg",
-          "./data/Bilder/image/friedhof2.jpg",
-          "./data/Bilder/image/friedhof3.jpg",
-          "./data/Bilder/image/friedhof4.jpg",
-          "./data/Bilder/image/friedhof5.jpg"
+        "coordinates": [
+          7.776389408018029,
+          50.065128854669574
         ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [7.688940705293862, 50.302960780352606]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "Id": 22,
-        "Objekt": "Gasfabrik",
-        "Bilder": [
-          "./data/Bilder/image/gasfabrik1.jpg",
-          "./data/Bilder/image/gasfabrik2.jpg"
-        ]
+        "Id": 11,
+        "Objekt": "Links 46",
+        "Bilder": "./data/content/image/links46.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=71&pan=142.70061305587518&tilt=3.558629668465213&fov=120"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.669473289444253, 50.30620410749866]
+        "coordinates": [
+          7.768313745099143,
+          50.08308192109334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 11,
+        "Objekt": "Links 47",
+        "Bilder": "./data/content/image/links47.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=73&pan=134.0859616329946&tilt=-0.5728296128319085&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.763271119930672,
+          50.08645513664299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 11,
+        "Objekt": "Links 48",
+        "Bilder": "./data/content/image/links48.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=86&pan=148.25344643926&tilt=1.7383206830753&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.750095421634359,
+          50.096737290577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 11,
+        "Objekt": "Links 49",
+        "Bilder": "./data/content/image/links49.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=91&pan=122.90924117285&tilt=-2.5805645248374&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.735622493388822,
+          50.106884841900396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 11,
+        "Objekt": "Links 50",
+        "Bilder": "./data/content/image/links50.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=95&pan=129.55723141685766&tilt=-3.2405474886544945&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.726157385776514,
+          50.11218338322724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 11,
+        "Objekt": "Links 51",
+        "Bilder": "./data/content/image/links51.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=96&pan=125.03506812446&tilt=0.56316588751645&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.72560924109069,
+          50.11610393592475
+        ]
       }
     }
+
   ]
 }

@@ -1,0 +1,390 @@
+{
+  "type": "FeatureCollection",
+  "name": "vogels_rheinpanorama_2",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "35",
+        "Datei": null,
+        "Panorama": "Links 2",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=2&pan=-28.45629640530693&tilt=-0.13697177967902396&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.806617446530497,
+          50.035380598101874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "36",
+        "Datei": null,
+        "Panorama": "Links 3",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=3&pan=32.784296087635624&tilt=-0.011500840096759418&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.798020730796459,
+          50.03928409814968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "37",
+        "Datei": null,
+        "Panorama": "Links 9",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=9&pan=343.30424374564325&tilt=0.5590594531868199&fov=99.14456569303832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.787138821171364,
+          50.04422060411797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "38",
+        "Datei": null,
+        "Panorama": "Links 19",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=19&pan=359.45594993271357&tilt=0.8258657736401998&fov=99.4061960788371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.774255136140252,
+          50.0519674051388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "39",
+        "Datei": null,
+        "Panorama": "Links 30",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=30&pan=109.24354884448715&tilt=3.103058085874642&fov=104.0667834174375"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.769445253446745,
+          50.06530427251282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "40",
+        "Datei": null,
+        "Panorama": "Links 37",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=37&pan=60.989667381303&tilt=-0.76295444325815&fov=94.49239370625902"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.768238015343448,
+          50.077743226246824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "41",
+        "Datei": null,
+        "Panorama": "Links 40",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=40&pan=139.7118811404386&tilt=2.385230780141497&fov=99.45355096406131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.763231911970151,
+          50.08200421907938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "42",
+        "Datei": null,
+        "Panorama": "Links 41",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=41&pan=90.283436652222&tilt=2.3913764088752&fov=103.91951284044012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75668728659904,
+          50.08679730016444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "43",
+        "Datei": null,
+        "Panorama": "Links 43",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=43&pan=24.533128501675&tilt=1.2748616561558&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.745964025596735,
+          50.094241481752235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "44",
+        "Datei": null,
+        "Panorama": "Links 45",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=45&pan=333.2112284446935&tilt=-0.573374570231391&fov=99.24291920123439"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.736914760431111,
+          50.10216021370375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "rechts",
+        "Nummer": "45",
+        "Datei": null,
+        "Panorama": "Links 51",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=51&pan=311.04881236732&tilt=-1.4128011895016&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.723053579112992,
+          50.111504133748696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "42",
+        "Datei": null,
+        "Panorama": "Rechts 1",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=56&pan=105.86435446284978&tilt=-1.626328049961632&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.793251028971266,
+          50.04583903025721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "43",
+        "Datei": null,
+        "Panorama": "Rechts 2",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=57&pan=172.74998797832&tilt=-1.4978689909047&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.786795067127328,
+          50.049793505015955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "44",
+        "Datei": null,
+        "Panorama": "Rechts 7",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=62&pan=226.01356054235163&tilt=-0.14917897414568296&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.774892868161364,
+          50.05856875270877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "45",
+        "Datei": null,
+        "Panorama": "Rechts 8",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=63&pan=-32.27080046526549&tilt=0.05446342398579985&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.776389408018029,
+          50.065128854669574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "46",
+        "Datei": null,
+        "Panorama": "Rechts 16",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=71&pan=142.70061305587518&tilt=3.558629668465213&fov=120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.768313745099143,
+          50.08308192109334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "47",
+        "Datei": null,
+        "Panorama": "Rechts 18",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=73&pan=134.0859616329946&tilt=-0.5728296128319085&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.763271119930672,
+          50.08645513664299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "48",
+        "Datei": null,
+        "Panorama": "Rechts 31",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=86&pan=148.25344643926&tilt=1.7383206830753&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.750095421634359,
+          50.096737290577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "49",
+        "Datei": null,
+        "Panorama": "Rechts 36",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=91&pan=122.90924117285&tilt=-2.5805645248374&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.735622493388822,
+          50.106884841900396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "50",
+        "Datei": null,
+        "Panorama": "Rechts 40",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=95&pan=129.55723141685766&tilt=-3.2405474886544945&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.726157385776514,
+          50.11218338322724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 0,
+        "Seite": "links",
+        "Nummer": "51",
+        "Datei": null,
+        "Panorama": "Rechts 41",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=96&pan=125.03506812446&tilt=0.56316588751645&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.72560924109069,
+          50.11610393592475
+        ]
+      }
+    }
+  ]
+}

@@ -673,55 +673,45 @@ function loadGeoJSONLayer(url, name, options) {
           return L.marker(latlng, { icon: getIcon(feature) });
         },
         onEachFeature: (feature, featureLayer) => {
-          featureLayer.on({
-            mouseout: function (e) {
-              for (let i in e.target._eventParents) {
-                e.target._eventParents[i].resetStyle(e.target);
-              }
-            },
-            //mouseover: highlightFeature,
-          });
+  featureLayer.on({
+    mouseout: function (e) {
+      for (let i in e.target._eventParents) {
+        e.target._eventParents[i].resetStyle(e.target);
+      }
+    },
+  });
 
-          let header = feature.properties.Objekt || "Unknown";
-          let contentType = "html";
-          let content = "";
-          if (feature.properties.PDF) {
-            let res = CWD + "/" + feature.properties.PDF;
-            contentType = "pdf";
-            content = `<pdfjs-viewer-element src='${res}' viewer-path="vendor/pdfjs-4.1.392" style="height: 80dvh; zoom: "page-fit" viewer-extra-styles="#toolbarViewerLeft, #toolbarViewerRight, #scaleSelectContainer { display: none; }"></pdfjs-viewer-element>`;
-          } else if (feature.properties.Video) {
-            contentType = "video";
-            let res = CWD + "/" + feature.properties.Video;
-            content = `<video controls autoplay loop style="width:100%"><source src="${res}"></source></video>`;
-          } else if (feature.properties.Bilder) {
-            const slider = Array.isArray(feature.properties.Bilder)
-              ? feature.properties.Bilder
-              : [feature.properties.Bilder];
+  let header = feature.properties.Objekt || "Unknown";
+  let contentType = "html";
+  let content = "";
 
-            contentType = "images";
-            content = slider
-              .map((src) => {
-                if (src) {
-                  let res = CWD + "/" + src.replace("Bilder", "content");
-                  return `<a href="${res}"> <img class="images-photo" src='${res}' alt='${res}' style="width:auto; height:400px"/> </a>`;
-                }
-              })
-              .join("");
-          }
+  if (feature.properties.Bilder) {
+    let imgSrc = CWD + "/" + feature.properties.Bilder.replace("Bilder", "content");
+    let link = feature.properties.Link ? feature.properties.Link : "#"; // Якщо немає лінку, залишаємо #
 
-          if (content) {
-            content = `
-            <div>
-              <h3>${header}</h3>
-              <div class="leaflet-popup-content-${contentType}">
-                ${content}
-              </div>
-            </div>`;
+    contentType = "images";
+    content = `
+      <div style="text-align: center;">
+        <a href="${link}" target="_blank">
+          <img class="images-photo" src="${imgSrc}" alt="${header}" style="width:auto; height:400px; cursor:pointer;" />
+        </a>
+      </div>`;
+  }
 
-            var popup = L.responsivePopup().setContent(content);
-            featureLayer.bindPopup(popup, { className: "leaflet-popup-" + contentType, maxWidth: 1024 });
-          }
-        },
+  if (content) {
+    content = `
+    <div>
+      <h3>${header}</h3>
+      <div class="leaflet-popup-content-${contentType}">
+        ${content}
+      </div>
+    </div>`;
+
+    let popup = L.responsivePopup().setContent(content);
+    featureLayer.bindPopup(popup, { className: "leaflet-popup-" + contentType, maxWidth: 1024 });
+  }
+}
+
       });
 
       layer.options.age = options.age;

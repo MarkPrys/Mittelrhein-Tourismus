@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "name": "pos_drohnen_1",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "689826a3-6dd2-44b7-b0fc-655b8b35c954",
+        "Name": "Drohnenpano1.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=99&pan=-1.1574803507916651&tilt=19.709249853850036&fov=113.16032647230658"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.786041666666667,
+          50.04173333333333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "40bc4baa-d353-4e8c-9bff-9b3cbc578006",
+        "Name": "Drohnenpano10.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=108&pan=12.289920235059187&tilt=11.811727104185374&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.75685,
+          50.08364721666668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "14340451-902d-4d51-943c-2fcce205ff63",
+        "Name": "Drohnenpano11.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=109&pan=-106.6357099348629&tilt=9.925943131368635&fov=99.45025271774705"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.738447216666667,
+          50.09761111666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "bd01ec47-5bd7-4f81-bb9d-57b649ddf3e8",
+        "Name": "Drohnenpano12.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=110&pan=-6.803746892162751&tilt=6.982601967998385&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.733566666666666,
+          50.100286116666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0dc81f9f-5dc7-44bd-a382-63d6ec0757af",
+        "Name": "Drohnenpano13.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=111&pan=56.493499867199304&tilt=18.47197597155555&fov=108.70162052069011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.717183333333334,
+          50.116744449999985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "84783cde-3a3d-4bd6-8fff-7a53f92868eb",
+        "Name": "Drohnenpano2.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=100&pan=-56.427865924702225&tilt=16.856893865431477&fov=117.4750828636202"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.77420555,
+          50.04741111666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "1bff1e56-ada0-4a5d-9165-8f0196dc7d18",
+        "Name": "Drohnenpano3.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=101&pan=43.2318082477401&tilt=18.1085150086229&fov=120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.770358333333333,
+          50.05188333333334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "b4a48a72-ec10-4122-aff0-088d1fae2ae1",
+        "Name": "Drohnenpano4.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=102&pan=-107.79784961808733&tilt=14.460461784336063&fov=104.12483060938395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.766236116666667,
+          50.05546945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "95c9ecdf-95df-48ca-a221-d940a1d5551f",
+        "Name": "Drohnenpano5.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=103&pan=-50.78719463386037&tilt=10.071237271489176&fov=115.83291929218754"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.764986116666667,
+          50.05836666666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "e40cc24d-1bbf-4cda-801a-acac25ac10ac",
+        "Name": "Drohnenpano6.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=104&pan=15.700222058788764&tilt=11.514170058406064&fov=117.47464308459693"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.765688883333334,
+          50.06188611666665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "7d517827-35f8-4ec8-99af-765df61b6070",
+        "Name": "Drohnenpano7.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=105&pan=-94.48972692646224&tilt=14.176700660878844&fov=120"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.766752783333333,
+          50.07349166666666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "425ccfdc-7d7e-4fd3-8b4d-ef7d7fc2b033",
+        "Name": "Drohnenpano8.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=106&pan=2.411878010528202&tilt=15.876375509644234&fov=108.70162052069011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.76339445,
+          50.07778055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpano9.jpg",
+        "Link": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=107&pan=38.77982442413697&tilt=21.4127347513922&fov=108.70162052069011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.761491666666668,
+          50.07959721666667
+        ]
+      }
+    }
+  ]
+}
