@@ -100,7 +100,7 @@ const LAYERS = {
         age: 3,
       },
     },
-    
+
     // {
     //   name: "Drohnen Panoramas",
     //   url: "data/overlays/posDrohnen.geojson",
