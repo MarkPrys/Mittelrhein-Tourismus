@@ -619,6 +619,51 @@ function loadImageLayerWithWorld(url, name, world, options) {
 }
 
 //------------------------------------------------------------------------------
+
+function styleFeature(feature) {
+  console.log("Applying style to:", feature.properties);
+
+  if (feature.properties.id === null) { // Або інша перевірка
+    return {
+      color: "#FFD700", // Жовта лінія
+      weight: 5,
+      opacity: 1,
+      className: "neon-glow",
+    };
+  } else {
+    return {
+      color: Object.hasOwn(feature.properties, "stroke")
+        ? feature.properties["stroke"]
+        : feature.properties["marker-color"]
+        ? feature.properties["marker-color"]
+        : feature.geometry.type == "Point"
+        ? "#ffffff"
+        : "#0000aa",
+      opacity: Object.hasOwn(feature.properties, "stroke-opacity") ? feature.properties["stroke-opacity"] : 1.0,
+      weight: Object.hasOwn(feature.properties, "stroke-width")
+        ? feature.properties["stroke-width"]
+        : feature.geometry.type == "Point"
+        ? 1.5
+        : 3,
+      fillColor: Object.hasOwn(feature.properties, "fill")
+        ? feature.properties["fill"]
+        : feature.properties["marker-color"]
+        ? feature.properties["marker-color"]
+        : "#0000aa",
+      fillOpacity: Object.hasOwn(feature.properties, "fill-opacity")
+        ? feature.properties["fill-opacity"]
+        : feature.geometry.type != "Point"
+        ? 0.2
+        : feature.geometry.type == "Point"
+        ? 1
+        : "",
+    };
+  }
+}
+
+
+
+//------------------------------------------------------------------------------
 function loadGeoJSONLayer(url, name, options) {
   fetch(url)
     .then((resp) => resp.json())
@@ -631,35 +676,7 @@ function loadGeoJSONLayer(url, name, options) {
           padding: 0.5,
           tolerance: 10,
         }),
-        style: (feature) => {
-          return {
-            color: Object.hasOwn(feature.properties, "stroke")
-              ? feature.properties["stroke"]
-              : feature.properties["marker-color"]
-              ? feature.properties["marker-color"]
-              : feature.geometry.type == "Point"
-              ? "#ffffff"
-              : "#0000aa",
-            opacity: Object.hasOwn(feature.properties, "stroke-opacity") ? feature.properties["stroke-opacity"] : 1.0,
-            weight: Object.hasOwn(feature.properties, "stroke-width")
-              ? feature.properties["stroke-width"]
-              : feature.geometry.type == "Point"
-              ? 1.5
-              : 3,
-            fillColor: Object.hasOwn(feature.properties, "fill")
-              ? feature.properties["fill"]
-              : feature.properties["marker-color"]
-              ? feature.properties["marker-color"]
-              : "#0000aa",
-            fillOpacity: Object.hasOwn(feature.properties, "fill-opacity")
-              ? feature.properties["fill-opacity"]
-              : feature.geometry.type != "Point"
-              ? 0.2
-              : feature.geometry.type == "Point"
-              ? 1
-              : "",
-          };
-        },
+        style: styleFeature,
         pointToLayer: (feature, latlng) => {
           return L.marker(latlng, { icon: getIcon(feature) });
         },

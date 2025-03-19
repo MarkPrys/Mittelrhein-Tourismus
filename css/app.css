@@ -651,3 +651,15 @@ div[id^="leaflet-control-accordion-layers"] > label:hover {
   cursor: pointer;
   box-shadow: 5px 5px 7px gray;
 }
+
+.neon-glow {
+  filter: drop-shadow(0px 0px 6px orange) drop-shadow(0px 0px 12px orange);
+  stroke: #FFD700;
+  stroke-width: 5;
+  stroke-opacity: 1;
+}
+
+/* .neon-glow {
+  background: url("/data/overlays/neon-texture.png") repeat-x;
+  opacity: 0.8;
+} */
