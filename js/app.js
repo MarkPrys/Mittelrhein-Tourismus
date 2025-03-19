@@ -175,25 +175,16 @@ function getIcon(feature, zoomLevel = -1) {
   if (zoomLevel < 0) {
     zoomLevel = map.getZoom();
   }
-  if (zoomLevel < ZOOM_MIN) {
-    zoomLevel = ZOOM_MIN;
-  }
-  if (zoomLevel > ZOOM_MAX) {
-    zoomLevel = ZOOM_MAX;
-  }
+  zoomLevel = Math.min(Math.max(zoomLevel, ZOOM_MIN), ZOOM_MAX);
   zoomLevel = Math.round(zoomLevel);
 
-  if (feature.properties.PDF) {
-    return iconSet["green"][zoomLevel];
-  }
-  if (feature.properties.Video) {
-    return iconSet["red"][zoomLevel];
-  }
-  if (feature.properties.Bilder) {
-    return iconSet["blue"][zoomLevel];
-  }
-  return L.Icon.Default;
+  if (feature.properties.PDF) return iconSet["green"][zoomLevel];
+  if (feature.properties.Video) return iconSet["red"][zoomLevel];
+  if (feature.properties.Bilder) return iconSet["blue"][zoomLevel];
+  if (feature.properties.WebLink) return iconSet["yellow"][zoomLevel]; // Додаємо для WebLink
+  return L.icon({ iconUrl: ICON_URLS.blue, iconSize: [32, 32], iconAnchor: [16, 32] }); // Стандартна іконка
 }
+
 
 // -----------------------------------------------------------------------------
 function showErrorDialog(msg, err = null) {
@@ -681,14 +672,15 @@ function loadGeoJSONLayer(url, name, options) {
     },
   });
 
-  let header = feature.properties.Objekt || "Unknown";
+  let header = feature.properties.Objekt || "";
   let contentType = "html";
   let content = "";
 
+  // Обробка Bilder (зображення)
   if (feature.properties.Bilder) {
     let imgSrc = CWD + "/" + feature.properties.Bilder.replace("Bilder", "content");
     let link = feature.properties.Link ? feature.properties.Link : "#"; // Якщо немає лінку, залишаємо #
-
+    
     contentType = "images";
     content = `
       <div style="text-align: center;">
@@ -697,6 +689,22 @@ function loadGeoJSONLayer(url, name, options) {
         </a>
       </div>`;
   }
+
+  // Обробка WebLink (тільки текст + посилання)
+  if (feature.properties.WebLink) {
+    let link = feature.properties.WebLink;
+    let linkText = feature.properties.Name || "Drohnenpanorama"; // Використовуємо "Name", якщо він є
+
+    contentType = "text";
+    content = `
+      <div style="min-width: 200px; max-width: 600px; text-align: center; padding: 10px;">
+        <h3>Link zum Drohnenpanorama in VR-Easy</h3>
+        <p><a href="${link}" target="_blank" style="color: blue; text-decoration: underline;">${linkText}</a></p>
+      </div>`;
+}
+
+
+
 
   if (content) {
     content = `
@@ -708,9 +716,10 @@ function loadGeoJSONLayer(url, name, options) {
     </div>`;
 
     let popup = L.responsivePopup().setContent(content);
-    featureLayer.bindPopup(popup, { className: "leaflet-popup-" + contentType, maxWidth: 1024 });
+    featureLayer.bindPopup(popup, { className: "leaflet-popup-" + contentType, maxWidth: 720 });
   }
 }
+
 
       });
 

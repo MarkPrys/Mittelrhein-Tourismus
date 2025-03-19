@@ -101,13 +101,13 @@ const LAYERS = {
       },
     },
 
-    // {
-    //   name: "Drohnen Panoramas",
-    //   url: "data/overlays/posDrohnen.geojson",
-    //   options: {
-    //     age: 5,
-    //   }
-    // }
+    {
+      name: "Drohnen Panoramas",
+      url: "data/overlays/posDrohnen.geojson",
+      options: {
+        age: 5,
+      }
+    }
     // {
     //   name: "Panorama",
     //   url: "data/overlays/pano.geojson",
