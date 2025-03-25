@@ -175,15 +175,31 @@ function getIcon(feature, zoomLevel = -1) {
   if (zoomLevel < 0) {
     zoomLevel = map.getZoom();
   }
+
   zoomLevel = Math.min(Math.max(zoomLevel, ZOOM_MIN), ZOOM_MAX);
   zoomLevel = Math.round(zoomLevel);
 
-  if (feature.properties.PDF) return iconSet["green"][zoomLevel];
-  if (feature.properties.Video) return iconSet["red"][zoomLevel];
-  if (feature.properties.Bilder) return iconSet["blue"][zoomLevel];
-  if (feature.properties.WebLink) return iconSet["yellow"][zoomLevel]; // Додаємо для WebLink
-  return L.icon({ iconUrl: ICON_URLS.blue, iconSize: [32, 32], iconAnchor: [16, 32] }); // Стандартна іконка
+  let color = "blue"; // дефолт
+
+  if (feature.properties.iconColor) {
+    color = feature.properties.iconColor;
+  } else if (feature.properties.PDF) {
+    color = "green";
+  } else if (feature.properties.Video) {
+    color = "red";
+  } else if (feature.properties.Bilder) {
+    color = "blue";
+  } else if (feature.properties.WebLink) {
+    color = "yellow";
+  }
+
+  console.log("Icon color for", feature.properties.Objekt, "->", color);
+  return iconSet[color][zoomLevel];
 }
+
+
+
+
 
 
 // -----------------------------------------------------------------------------
