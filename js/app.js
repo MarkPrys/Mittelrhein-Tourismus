@@ -29,7 +29,7 @@ log.setDefaultLevel(log.levels.TRACE, false);
 const CWD = window.location.pathname.split("/").slice(0, -1).join("/");
 const ZOOM_MIN = 11;
 const ZOOM_MAX = 20;
-const ICON_MIN_SIZE = 22;
+const ICON_MIN_SIZE = 20;
 const ICON_MAX_SIZE = 64;
 const ICON_EXP = 2;
 const ICON_URLS = {

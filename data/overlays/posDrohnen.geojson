@@ -13,7 +13,7 @@
       "properties": {
         "ID": "689826a3-6dd2-44b7-b0fc-655b8b35c954",
         "Name": "Drohnenpanorama 1",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=99&pan=-1.1574803507916651&tilt=19.709249853850036&fov=113.16032647230658"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=99&pan=401.30626550466485&tilt=24.03790144593348&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -28,7 +28,7 @@
       "properties": {
         "ID": "40bc4baa-d353-4e8c-9bff-9b3cbc578006",
         "Name": "Drohnenpanorama 10",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=108&pan=12.289920235059187&tilt=11.811727104185374&fov=90"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=108&pan=77.48577008311365&tilt=14.021872577900165&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -43,7 +43,7 @@
       "properties": {
         "ID": "14340451-902d-4d51-943c-2fcce205ff63",
         "Name": "Drohnenpanorama 11",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=109&pan=-106.6357099348629&tilt=9.925943131368635&fov=99.45025271774705"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=109&pan=-50.926908354980334&tilt=11.397029643579685&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -58,7 +58,7 @@
       "properties": {
         "ID": "bd01ec47-5bd7-4f81-bb9d-57b649ddf3e8",
         "Name": "Drohnenpanorama 12",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=110&pan=-6.803746892162751&tilt=6.982601967998385&fov=90"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=110&pan=6.631444162053956&tilt=11.074377967599185&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -73,13 +73,28 @@
       "properties": {
         "ID": "0dc81f9f-5dc7-44bd-a382-63d6ec0757af",
         "Name": "Drohnenpanorama 13",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=111&pan=56.493499867199304&tilt=18.47197597155555&fov=108.70162052069011"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=112&pan=-137.3192152452466&tilt=15.332000181702009&fov=90"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.717183333333334,
-          50.116744449999985
+          7.7301443,
+          50.1031858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "0dc81f9f-5dc7-44bd-a382-63d6ec0757af",
+        "Name": "Drohnenpanorama 14",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=111&pan=-24.27063467823128&tilt=6.894996251123271&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7172226,
+          50.1159979
         ]
       }
     },
@@ -88,7 +103,7 @@
       "properties": {
         "ID": "84783cde-3a3d-4bd6-8fff-7a53f92868eb",
         "Name": "Drohnenpanorama 2",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=100&pan=-56.427865924702225&tilt=16.856893865431477&fov=117.4750828636202"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=100&pan=1.923121792258088&tilt=13.194576464719576&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -103,7 +118,7 @@
       "properties": {
         "ID": "1bff1e56-ada0-4a5d-9165-8f0196dc7d18",
         "Name": "Drohnenpanorama 3",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=101&pan=43.2318082477401&tilt=18.1085150086229&fov=120"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=101&pan=28.869138627497005&tilt=12.951296337554483&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -118,7 +133,7 @@
       "properties": {
         "ID": "b4a48a72-ec10-4122-aff0-088d1fae2ae1",
         "Name": "Drohnenpanorama 4",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=102&pan=-107.79784961808733&tilt=14.460461784336063&fov=104.12483060938395"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=102&pan=-57.36587445299041&tilt=16.054997483311666&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -133,7 +148,7 @@
       "properties": {
         "ID": "95c9ecdf-95df-48ca-a221-d940a1d5551f",
         "Name": "Drohnenpanorama 5",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=103&pan=-50.78719463386037&tilt=10.071237271489176&fov=115.83291929218754"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=103&pan=-5.810730701017927&tilt=8.221662488527404&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -148,7 +163,7 @@
       "properties": {
         "ID": "e40cc24d-1bbf-4cda-801a-acac25ac10ac",
         "Name": "Drohnenpanorama 6",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=104&pan=15.700222058788764&tilt=11.514170058406064&fov=117.47464308459693"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=104&pan=106.36609444033674&tilt=12.179160085297877&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -163,7 +178,7 @@
       "properties": {
         "ID": "7d517827-35f8-4ec8-99af-765df61b6070",
         "Name": "Drohnenpanorama 7",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=105&pan=-94.48972692646224&tilt=14.176700660878844&fov=120"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=105&pan=-72.86724933042275&tilt=12.793560603616369&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -178,7 +193,7 @@
       "properties": {
         "ID": "425ccfdc-7d7e-4fd3-8b4d-ef7d7fc2b033",
         "Name": "Drohnenpanorama 8",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=106&pan=2.411878010528202&tilt=15.876375509644234&fov=108.70162052069011"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=106&pan=-9.482859668073935&tilt=15.714747697930175&fov=90"
       },
       "geometry": {
         "type": "Point",
@@ -193,13 +208,133 @@
       "properties": {
         "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
         "Name": "Drohnenpanorama 9",
-        "WebLink": "https://vr-easy.com/tour/viriditas/250311-vogels_rheinpanorama/#pano=107&pan=38.77982442413697&tilt=21.4127347513922&fov=108.70162052069011"
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=107&pan=-5.275694077513176&tilt=18.96590064516484&fov=90"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           7.761491666666668,
           50.07959721666667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 15",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=113&pan=297.38683908743633&tilt=11.263650047949236&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7324583,
+          50.1136527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 16",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=114&pan=72.36935767122476&tilt=8.4486922859298&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7452416,
+          50.107225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 17",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=115&pan=24.873866581892052&tilt=7.958995415057053&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7553166666,
+          50.1026861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 18",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=116&pan=66.37212808629478&tilt=7.482534313607237&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.761805550,
+          50.097116666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 19",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=117&pan=329.94970220917395&tilt=7.889743137369386&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.762938883,
+          50.090088883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 20",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=118&pan=365.17459375942786&tilt=8.788924400365534&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.775872216,
+          50.087991666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 21",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=119&pan=0.19646276886650987&tilt=9.548320209471765&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.787255550,
+          50.059758333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ee5c4e8a-c672-4526-a64c-040a6022d451",
+        "Name": "Drohnenpanorama 22",
+        "WebLink": "https://vr-easy.com/tour/viriditas/250807-vogels_rheinpanorama_tour/#pano=120&pan=15.656520218612284&tilt=11.819997728264383&fov=90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.787255550,
+          50.052424999999
         ]
       }
     }
