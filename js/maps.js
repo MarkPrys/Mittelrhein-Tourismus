@@ -91,3 +91,7 @@ const LAYERS = {
 
   ],
 };
+
+fetch('data/maps/OSM.pmtiles', { method: 'HEAD' })
+  .then(res => console.log("HEAD response", res))
+  .catch(err => console.error("HEAD error", err));

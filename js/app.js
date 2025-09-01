@@ -590,10 +590,6 @@ function addPMTilesLayer(name, value, options) {
   map.fitBounds(value.bounds);
 }
 
-fetch('data/maps/OSM.pmtiles', { method: 'HEAD' })
-  .then(res => console.log("HEAD response", res))
-  .catch(err => console.error("HEAD error", err));
-
 
 //------------------------------------------------------------------------------
 function loadImageLayerWithBounds(url, name, bounds, options) {
