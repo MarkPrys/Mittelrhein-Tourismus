@@ -36,7 +36,7 @@ const LAYERS = {
     // },
     {
       name: "Historische Karte",
-      url: "data/maps/Historische Karte.jpg",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/Historische Karte.jpg",
       world: {
         file: "data/maps/Historische Karte.jgw",
         proj: "UTM",
@@ -61,7 +61,7 @@ const LAYERS = {
     {
       // ETRS89 / UTM 32N
       name: "TK25 2023",
-      url: "data/maps/TK.jpg",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/TK.jpg",
       world: {
         file: "data/maps/TK.jgw",
         proj: "UTM",
@@ -77,7 +77,7 @@ const LAYERS = {
   pmtiles: [
     {
       name: "OpenStreetMap 03/2025",
-      url: "data/maps/OSM.pmtiles",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/OSM.pmtiles",
       options: {
         age: 2024,
       },
@@ -87,7 +87,7 @@ const LAYERS = {
   geojson: [
     {
       name: "Touristenroute",
-      url: "data/overlays/Touristenroute.geojson",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/overlays/Touristenroute.geojson",
       options: {
         age: 1,
       },
@@ -95,7 +95,7 @@ const LAYERS = {
 
     {
       name: "Vogels Rheinpanorama",
-      url: "data/overlays/Infopunkte.geojson",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/overlays/Infopunkte.geojson",
       options: {
         age: 3,
       },
@@ -103,7 +103,7 @@ const LAYERS = {
 
     {
       name: "Drohnen Panoramas",
-      url: "data/overlays/posDrohnen.geojson",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/overlays/posDrohnen.geojson",
       options: {
         age: 5,
       }
