@@ -56,8 +56,8 @@ const LAYERS = {
   /* OSM Rasterkarten */
   pmtiles: [
     {
-      name: "OpenStreetMap 03/2025",
       url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/OSM.pmtiles",
+      name: "OpenStreetMap 03/2025",
       options: {
         age: 2024,
       },
