@@ -38,7 +38,7 @@ const LAYERS = {
       name: "Historische Karte",
       url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/Historische Karte.jpg",
       world: {
-        file: "data/maps/Historische Karte.jgw",
+        file: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/Historische Karte.jgw",
         proj: "UTM",
         zone: 32,
         band: "N",
@@ -63,7 +63,7 @@ const LAYERS = {
       name: "TK25 2023",
       url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/TK.jpg",
       world: {
-        file: "data/maps/TK.jgw",
+        file: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/TK.jgw",
         proj: "UTM",
         zone: 32,
         band: "N",
