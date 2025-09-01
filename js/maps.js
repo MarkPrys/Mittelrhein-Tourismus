@@ -23,22 +23,12 @@
 const LAYERS = {
   /* base maps as image */
   images: [
-    // {
-    //   name: "Tranchot - v. Müffling 1803-1820",
-    //   url: "data/maps/tranchot.png",
-    //   bounds: [
-    //     [50.29068795494675, 7.6328987132876716],
-    //     [50.321764254593674, 7.705471469491065],
-    //   ],
-    //   options: {
-    //     age: 1820,
-    //   },
-    // },
+
     {
       name: "Historische Karte",
-      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/Historische Karte.jpg",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/Historische_Karte.jpg",
       world: {
-        file: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/Historische Karte.jgw",
+        file: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/Historische_Karte.jgw",
         proj: "UTM",
         zone: 32,
         band: "N",
@@ -47,17 +37,7 @@ const LAYERS = {
         age: 1879,
       },
     },
-    // {
-    //   name: "Preuß. Neuaufnahme 1902",
-    //   url: "data/maps/preuss1902.png",
-    //   bounds: [
-    //     [50.294518434946525, 7.642596372689379],
-    //     [50.31635902439836, 7.693803309016072],
-    //   ],
-    //   options: {
-    //     age: 1902,
-    //   },
-    // },
+
     {
       // ETRS89 / UTM 32N
       name: "TK25 2023",
@@ -108,12 +88,6 @@ const LAYERS = {
         age: 5,
       }
     }
-    // {
-    //   name: "Panorama",
-    //   url: "data/overlays/pano.geojson",
-    //   options: {
-    //     age: 4,
-    //   },
-    // },
+
   ],
 };
