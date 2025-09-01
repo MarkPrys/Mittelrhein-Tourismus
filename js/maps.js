@@ -40,6 +40,21 @@ const LAYERS = {
 
     {
       // ETRS89 / UTM 32N
+      name: "Open Street Maps",
+      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/OSM.jpg",
+      world: {
+        file: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/OSM.jgw",
+        proj: "UTM",
+        zone: 32,
+        band: "N",
+      },
+      options: {
+        age: 2025,
+      },
+    },
+
+    {
+      // ETRS89 / UTM 32N
       name: "TK25 2023",
       url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/TK.jpg",
       world: {
@@ -54,15 +69,7 @@ const LAYERS = {
     },
   ],
   /* OSM Rasterkarten */
-  pmtiles: [
-    {
-      url: "https://markprys.github.io/Mittelrhein-Tourismus/data/maps/OSM.pmtiles",
-      name: "OpenStreetMap 03/2025",
-      options: {
-        age: 2024,
-      },
-    },
-  ],
+ 
   /* GeoJSON overlays */
   geojson: [
     {

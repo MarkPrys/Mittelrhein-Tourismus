@@ -70,19 +70,7 @@
     <script src="vendor/leaflet-locatecontrol-0.79.0/L.Control.Locate.min.js"></script>
     <script src="vendor/leaflet-mapcentercoord-0.7/L.Control.MapCenterCoord.js"></script>
     <script src="vendor/leaflet-utm-1.0.0/L.LatLng.UTM.js"></script>
-
-    <script type="module">
-      import { PMTiles, LeafletOfflineLayer } from "https://unpkg.com/@protomaps/leaflet@3.2.0/dist/index.js";
-
-      const pmtiles = new PMTiles("https://markprys.github.io/Mittelrhein-Tourismus/data/maps/OSM.pmtiles");
-
-      const layer = new LeafletOfflineLayer(pmtiles, {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
-      });
-
-      layer.addTo(map); // ← лише якщо "map" глобально визначена змінна
-    </script>
-
+    <script src="vendor/pmtiles-2.11.0/index.js"></script>
     <script src="vendor/sweetalert2-11.10.2/sweetalert2.all.min.js"></script>
     <script src="vendor/i18next-23.10.1/i18next.min.js"></script>
     <script src="vendor/loglevel-1.9.1/loglevel.js"></script>
