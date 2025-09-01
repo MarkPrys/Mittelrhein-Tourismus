@@ -501,94 +501,94 @@ window.addEventListener("online", () => {
 //==============================================================================
 
 // -----------------------------------------------------------------------------
-function loadPMTiles(url, name, options) {
-  store
-    .getItem(url)
-    .then((value) => {
-      addPMTilesLayer(name, value, options);
-    })
-    .catch(() => {
-      let p = new pmtiles.PMTiles(url);
-      p.getMetadata()
-        .then((metadata) => {
-          if (metadata.format == "pbf" || metadata.vector_layers) {
-            showErrorDialog("error.onlyRaster");
-          } else {
-            p.getHeader().then((header) => {
-              if (metadata && header) {
-                if (navigator.onLine) {
-                  fetch(url)
-                    .then((response) => {
-                      if (!response.ok) {
-                        throw new Error(response.statusText);
-                      }
-                      response.blob().then((blob) => {
-                        let file = new File([blob], name, { type: blob.type });
-                        const value = {
-                          name: metadata.name,
-                          description: firstOf(metadata.description, ""),
-                          attribution: firstOf(metadata.attribution, ""),
-                          bounds: [
-                            [header.minLat, header.minLon],
-                            [header.maxLat, header.maxLon],
-                          ],
-                          maxZoom: header.maxZoom,
-                          minZoom: header.minZoom,
-                          timestamp: Date.now(),
-                          pmtiles: file,
-                        };
-                        store
-                          .setItem(url, value)
-                          .then(function (value) {
-                            addPMTilesLayer(name, value, options);
-                            //showSuccessToast("msg.mapSaved");
-                            log.debug("map downloaded");
-                          })
-                          .catch((error) => {
-                            showWarningToast("error.saving");
-                            showErrorDialog("Request failed.", error);
-                          });
-                      });
-                    })
-                    .catch((error) => {
-                      showErrorDialog("Request failed.", error);
-                    });
-                } else {
-                  showWarningToast("warning.notOnline");
-                }
-              }
-            });
-          }
-        })
-        .catch((err) => {
-          showErrorDialog("error.loading", err);
-        });
-    });
-}
+// function loadPMTiles(url, name, options) {
+//   store
+//     .getItem(url)
+//     .then((value) => {
+//       addPMTilesLayer(name, value, options);
+//     })
+//     .catch(() => {
+//       let p = new pmtiles.PMTiles(url);
+//       p.getMetadata()
+//         .then((metadata) => {
+//           if (metadata.format == "pbf" || metadata.vector_layers) {
+//             showErrorDialog("error.onlyRaster");
+//           } else {
+//             p.getHeader().then((header) => {
+//               if (metadata && header) {
+//                 if (navigator.onLine) {
+//                   fetch(url)
+//                     .then((response) => {
+//                       if (!response.ok) {
+//                         throw new Error(response.statusText);
+//                       }
+//                       response.blob().then((blob) => {
+//                         let file = new File([blob], name, { type: blob.type });
+//                         const value = {
+//                           name: metadata.name,
+//                           description: firstOf(metadata.description, ""),
+//                           attribution: firstOf(metadata.attribution, ""),
+//                           bounds: [
+//                             [header.minLat, header.minLon],
+//                             [header.maxLat, header.maxLon],
+//                           ],
+//                           maxZoom: header.maxZoom,
+//                           minZoom: header.minZoom,
+//                           timestamp: Date.now(),
+//                           pmtiles: file,
+//                         };
+//                         store
+//                           .setItem(url, value)
+//                           .then(function (value) {
+//                             addPMTilesLayer(name, value, options);
+//                             //showSuccessToast("msg.mapSaved");
+//                             log.debug("map downloaded");
+//                           })
+//                           .catch((error) => {
+//                             showWarningToast("error.saving");
+//                             showErrorDialog("Request failed.", error);
+//                           });
+//                       });
+//                     })
+//                     .catch((error) => {
+//                       showErrorDialog("Request failed.", error);
+//                     });
+//                 } else {
+//                   showWarningToast("warning.notOnline");
+//                 }
+//               }
+//             });
+//           }
+//         })
+//         .catch((err) => {
+//           showErrorDialog("error.loading", err);
+//         });
+//     });
+// }
 
 
 // -----------------------------------------------------------------------------
-function addPMTilesLayer(name, value, options) {
-  name = firstOf(name, value.name);
-  let p = new pmtiles.PMTiles(new pmtiles.FileAPISource(value.pmtiles));
-  let layer = pmtiles
-    .leafletRasterLayer(p, {
-      key: name,
-      bounds: value.bounds,
-      updateWhenIdle: false,
-      maxZoom: map.getMaxZoom(),
-      maxNativeZoom: Number(value.maxZoom),
-      detectRetina: true,
-      attribution: value.attribution,
-    })
-    .addTo(map);
-  layer.options.bounds = value.bounds;
-  layer.options.age = options.age;
-  map.addLayer(layer);
-  controls.layers.addBaseLayer(layer, name);
-  updateMapBounds(layer);
-  map.fitBounds(value.bounds);
-}
+// function addPMTilesLayer(name, value, options) {
+//   name = firstOf(name, value.name);
+//   let p = new pmtiles.PMTiles(new pmtiles.FileAPISource(value.pmtiles));
+//   let layer = pmtiles
+//     .leafletRasterLayer(p, {
+//       key: name,
+//       bounds: value.bounds,
+//       updateWhenIdle: false,
+//       maxZoom: map.getMaxZoom(),
+//       maxNativeZoom: Number(value.maxZoom),
+//       detectRetina: true,
+//       attribution: value.attribution,
+//     })
+//     .addTo(map);
+//   layer.options.bounds = value.bounds;
+//   layer.options.age = options.age;
+//   map.addLayer(layer);
+//   controls.layers.addBaseLayer(layer, name);
+//   updateMapBounds(layer);
+//   map.fitBounds(value.bounds);
+// }
 
 
 //------------------------------------------------------------------------------
@@ -770,9 +770,9 @@ function loadGeoJSONLayer(url, name, options) {
 
 // -----------------------------------------------------------------------------
 function loadMaps() {
-  LAYERS.pmtiles.forEach((item) => {
-    loadPMTiles(item.url, item.name, item.options);
-  });
+  // LAYERS.pmtiles.forEach((item) => {
+  //   loadPMTiles(item.url, item.name, item.options);
+  // });
   LAYERS.images.forEach((item) => {
     if (item.bounds) {
       loadImageLayerWithBounds(item.url, item.name, item.bounds, item.options);
